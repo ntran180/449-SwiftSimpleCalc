@@ -89,7 +89,7 @@ func calculate(_ arg: String) -> Int {
     let calc = arg.split(separator : " ").map(String.init)
     return calculate(calc)
 }
-
+ 
 //: Below this are the test expressions/calls to verify if your code is correct.
 //:
 //: ***DO NOT MODIFY ANYTHING BELOW THIS***
